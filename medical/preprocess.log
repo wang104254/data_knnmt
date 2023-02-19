@@ -1,0 +1,14 @@
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, bf16=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='/Users/zx/Documents/knn-mt-data/data-bin/medical', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=True, log_format=None, log_interval=100, lr_scheduler='fixed', memory_efficient_bf16=False, memory_efficient_fp16=False, min_loss_scale=0.0001, model_parallel_size=1, no_progress_bar=False, nwordssrc=42020, nwordstgt=42020, only_source=False, optimizer=None, padding_factor=8, profile=False, quantization_config_path=None, scoring='bleu', seed=1, source_lang='de', srcdict='/Users/zx/Documents/knn-mt-data/dict.de.txt', target_lang='en', task='translation', tensorboard_logdir=None, testpref='/Users/zx/Documents/knn-mt-data/multi_domain_new_split/medical/test.de-en.tok.bpe', tgtdict=None, threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, tpu=False, trainpref='/Users/zx/Documents/knn-mt-data/multi_domain_new_split/medical/train.de-en.tok.bpe', user_dir=None, validpref='/Users/zx/Documents/knn-mt-data/multi_domain_new_split/medical/dev.de-en.tok.bpe', wandb_project=None, workers=20)
+[de] Dictionary: 42024 types
+[de] /Users/zx/Documents/knn-mt-data/multi_domain_new_split/medical/train.de-en.tok.bpe.de: 248099 sents, 7226921 tokens, 0.000194% replaced by <unk>
+[de] Dictionary: 42024 types
+[de] /Users/zx/Documents/knn-mt-data/multi_domain_new_split/medical/dev.de-en.tok.bpe.de: 2000 sents, 58635 tokens, 0.222% replaced by <unk>
+[de] Dictionary: 42024 types
+[de] /Users/zx/Documents/knn-mt-data/multi_domain_new_split/medical/test.de-en.tok.bpe.de: 2000 sents, 60522 tokens, 0.276% replaced by <unk>
+[en] Dictionary: 42024 types
+[en] /Users/zx/Documents/knn-mt-data/multi_domain_new_split/medical/train.de-en.tok.bpe.en: 248099 sents, 6903141 tokens, 0.000377% replaced by <unk>
+[en] Dictionary: 42024 types
+[en] /Users/zx/Documents/knn-mt-data/multi_domain_new_split/medical/dev.de-en.tok.bpe.en: 2000 sents, 56613 tokens, 0.256% replaced by <unk>
+[en] Dictionary: 42024 types
+[en] /Users/zx/Documents/knn-mt-data/multi_domain_new_split/medical/test.de-en.tok.bpe.en: 2000 sents, 57790 tokens, 0.196% replaced by <unk>
+Wrote preprocessed data to /Users/zx/Documents/knn-mt-data/data-bin/medical
